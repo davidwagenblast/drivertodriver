@@ -109,7 +109,7 @@
 	width: 100%}
 	
 .image-fluid-custom {
-	width: 100% }
+	max-width: 400px; }
 	
 .fit {
 	width: 225px;
@@ -121,3 +121,12 @@
 	
 .bruhimage {
 margin-top:  75px;  }
+
+.margintop {
+Margin-top:  100px; }
+
+.marginfooter {
+Margin-top:  100px; }
+
+
+

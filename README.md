@@ -1,7 +1,7 @@
-### Driver2Driver
-* The next step in automobile safety *
+# Driver2Driver  #
+* The next step in automobile safety 
 
-## How does it work?
+## How does it work? ##
 Using a diverse integratrion of communication types, drivers can safely communicate with other drivers who may be posing a hazard to others on the road. 
 
 ## Languages Used ##

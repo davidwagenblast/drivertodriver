@@ -5,12 +5,12 @@
 Using a diverse integratrion of communication types, drivers can safely communicate with other drivers who may be posing a hazard to others on the road. 
 
 ## Languages Used ##
-HTML
-CSS
-Java
-Alexa Routine
-Swift
-Iphone Shortcuts
+*HTML
+*CSS
+*Java
+*Alexa Routine
+*Swift
+*Iphone Shortcuts
 
 ## Feature Set ##
 Proximity Based (only allows people withing 3mi to send messages, so that people don't maliciously contact others.)

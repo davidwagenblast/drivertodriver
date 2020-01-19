@@ -1,0 +1,120 @@
+/* title header */
+.titleheader-area {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 345px; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .titleheader-area {
+      height: 270px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .titleheader-area {
+      height: 250px; } }
+  @media only screen and (max-width: 767px) {
+    .titleheader-area {
+      height: 220px; } }
+  .titleheader-area .titleheaderContent {
+    position: absolute;
+    width: 392px;
+    height: 78px;
+    bottom: -39px;
+    left: 50%;
+    margin-left: -196px;
+    z-index: 100;
+      background: rgb(13,130,145);
+      background: linear-gradient(48deg, rgba(13,130,145,1) 0%, rgba(173,255,162,1) 100%);rgba(13,130,145,1) 100%); rgba(13,145,20,1) 100%);progid:DXImageTransform.Microsoft.gradient(startColorstr="#007eda",endColorstr="#fb1506",GradientType=1);
+    text-align: center; }
+    @media only screen and (max-width: 767px) {
+      .titleheader-area .titleheaderContent {
+        width: 280px;
+        margin-left: -140px; } }
+    .titleheader-area .titleheaderContent h2 {
+      font-size: 36px;
+      color: #ffffff;
+      margin-bottom: 0;
+      line-height: 78px;
+      font-weight: 900; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .titleheader-area .titleheaderContent h2 {
+          font-size: 30px; } }
+      @media only screen and (max-width: 767px) {
+        .titleheader-area .titleheaderContent h2 {
+          font-size: 26px; } }
+
+/* header image css */
+.bg-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  
+.bg-overlay2 {
+  position: relative;
+  z-index: 2;
+  background-position: center center;
+  background-size: cover; }
+  .bg-overlay2::after {
+    background-color: rgba(21, 4, 48, 0.5);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ""; }
+
+.flibson{
+        font-family: 'Oswald', sans-serif;
+        font-size: 48px;
+        color: gray;
+      }
+
+.h3margin{
+      margin-top: 12px;
+      margin-left: 90px;
+      margin-right: 90px;
+}
+
+/* Fonts and Text Classes */
+.dmg {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 900;
+	padding: 50px 50px 20px; }
+
+.fonttheme {
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
+      color:gray;
+}
+	
+.fonttheme-sm {
+	font-family: 'Oswald', sans-serif;
+	font-size: 75%;
+      padding: 25px 50px 25px 50px;
+      }
+
+.fonttheme-sm {
+	font-family: 'Oswald', sans-serif;
+	font-size: 75%;
+      padding: 0px 50px 0px 50px;
+      }
+	
+.fontpadding {
+	padding: 25px 50px; }
+	
+/* Image Classes */
+
+.smimg {
+	padding: 70px 25px 20px 30px;
+	max-width: 500px;
+	width: 100%}
+	
+.image-fluid-custom {
+	width: 100% }
+	
+.fit {
+	width: 225px;
+	height: auto; }
+	
+.row {
+	padding: 0 !important;
+	margin: 0 !important; }
